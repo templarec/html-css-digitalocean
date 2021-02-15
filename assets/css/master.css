@@ -46,7 +46,65 @@
   color: #fff;
   background-color: #006AFF;
 }
-@media all and (max-width: 1200px) {
+#jumbo {
+  background-image: url('../img/bg-sea.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 70px 0;
+}
+.page-header {
+  color: #fff;
+  border: none;
+}
+.page-header h1 {
+  padding: 0;
+}
+.page-header small{
+  display: block;
+  color: #90ADFF;
+  padding-top: 15px;
+}
+.create-account {
+  background-color: #fff;
+  color: #031C4E;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+.create-account h2 {
+  text-align: center;
+}
+.font-blue {
+  color: #006AFF;
+}
+.create-account input, .create-account .btn {
+  display: block;
+  margin-bottom: 5px;
+}
+.create-account input {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+.create-account .btn-primary {
+  background-color:  #579AFF;
+  color: #FFF;
+  border: 1px solid #579AFF;
+}
+.create-account .btn-default {
+  color: #626262;
+  font-weight: bold;
+  box-shadow: #626262;
+}
+.create-account input::placeholder {
+  border: 1px solid #777;
+}
+.create-account p, .create-account p > a  {
+  font-size: 12px;
+  text-align: center;
+}
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
     display: block;
   }
