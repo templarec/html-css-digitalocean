@@ -257,7 +257,44 @@
   color: #1633FF;
   text-decoration: none;
 }
+#regions {
+  background: rgb(0,30,154);
+  background: linear-gradient(180deg, rgba(0,30,154,1) 0%, rgba(0,66,191,1) 100%);
+  padding: 40px 0;
+}
+#regions h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.grid1, .grid2 {
+  padding: 20px 0;
+  margin: 0 10px;
+}
+.codice {
+  color: #fff;
+}
+.descrizione {
+  color: #BBC8EA;
+}
+.link {
+  text-align: right;
+}
+.link a {
+  color: #00D5D2;
 
+}
+.link a:hover {
+  color: #1033FF;
+  text-decoration: none;
+}
+.codice, .descrizione, .link {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+.no-border {
+  border: none;
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
     display: block;
