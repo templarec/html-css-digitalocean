@@ -130,12 +130,12 @@
 #trust-banner {
   background-color: #F3F5F9;
   text-align: center;
-  color: #9FA8BB;
+  color: #6F7B97;
 }
 #trust-banner h4 {
   text-transform: uppercase;
 }
-#trust-banner img{
+#trust-banner img {
   margin: 20px 0;
   height: 6em;
   }
@@ -169,9 +169,17 @@
   .page-header h1 {
     font-size: 2em;
   }
+  #trust-banner img {
+    width: 6em;
+    margin: 0;
+  }
 }
 @media all and (min-width: 992px) {
   .page-header h1 {
     font-size: 3em;
+  }
+  #trust-banner img {
+    width: 10em;
+    
   }
 }
