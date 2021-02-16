@@ -50,6 +50,7 @@
   background-image: url('../img/bg-sea.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left top;
   height: auto;
   padding: 70px 0;
 }
@@ -68,12 +69,15 @@
 .create-account {
   background-color: #fff;
   color: #031C4E;
+  font-weight: bold;
   border-radius: 10px;
   padding: 15px;
-
 }
 .create-account h2 {
   text-align: center;
+}
+.create-account > .font-blue{
+  margin-top: 0;
 }
 .font-blue {
   color: #006AFF;
@@ -82,27 +86,46 @@
   display: block;
   margin-bottom: 5px;
 }
-.create-account input {
-  border: none;
+.create-account input, .create-account input:focus {
   width: 100%;
+  height: 30px;
+  outline: 0;
+  box-shadow: #626262;
+  padding: 0;
   border-radius: 5px;
+  color: #000;
 }
 .create-account .btn-primary {
   background-color:  #579AFF;
   color: #FFF;
   border: 1px solid #579AFF;
 }
+.create-account .btn-primary:hover {
+  background-color:  #fff;
+  color: #579AFF;
+  border: 1px solid #579AFF;
+}
 .create-account .btn-default {
   color: #626262;
   font-weight: bold;
   box-shadow: #626262;
+  background-color: transparent;
+  position: relative;
 }
 .create-account input::placeholder {
-  border: 1px solid #777;
+  color: #777;
+  padding-left: 4px;
 }
 .create-account p, .create-account p > a  {
   font-size: 12px;
   text-align: center;
+}
+.google-logo {
+  position: absolute;
+  left: 0;
+  padding-bottom: 6px;
+  height: 25px;
+  padding-left: 6px;
 }
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
@@ -116,5 +139,21 @@
     height: auto!important;
     padding-bottom: 0;
     overflow-y: auto;
+  }
+}
+@media all and (min-width: 768px) {
+  .create-account {
+    margin-top: 40px;
+  }
+  #jumbo {
+    background-position: top center;
+  }
+  .page-header h1 {
+    font-size: 2em;
+  }
+}
+@media all and (min-width: 992px) {
+  .page-header h1 {
+    font-size: 3em;
   }
 }
