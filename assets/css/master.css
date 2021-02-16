@@ -145,6 +145,53 @@
  #trust-banner a {
    color: #006AFF;
  }
+#deploy {
+  text-align: center;
+  margin-top: 40px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+#deploy h2 {
+   color: #031C4E;
+}
+#deploy p {
+   color: #5C6A88;
+}
+.deploy-list {
+  list-style: none;
+  text-align: left;
+
+}
+.deploy-list li {
+  border-left: 2px solid #ccc;
+  padding: 6px 5px;
+
+}
+.deploy-list li a, .deploy-list li a:visited {
+  color: #5C6A88;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.deploy-list li:active {
+  border-left: 2px solid #0069FF;
+}
+.deploy-list li:active a {
+  color: #000;
+  text-decoration: none;
+}
+.deploy-list li:hover a {
+  text-decoration: none;
+}
+.card {
+  text-align: left;
+}
+.card h5 {
+  font-size: 1.2em;
+  color: #031C4E;
+  font-weight: bold;
+}
+
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
     display: block;
@@ -180,6 +227,6 @@
   }
   #trust-banner img {
     width: 10em;
-    
+
   }
 }
