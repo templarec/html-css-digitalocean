@@ -328,6 +328,26 @@
 #about-us .pallini {
   padding: 20px 0;
 }
+#get-started {
+  background: rgb(0,30,154);
+  background: linear-gradient(180deg, rgba(0,30,154,1) 0%, rgba(0,66,191,1) 100%);
+  padding: 40px 0;
+  text-align: center;
+}
+#get-started h2 {
+  color: #fff;
+}
+#get-started .btn {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #fff;
+  color: #1E7CFF;
+  margin-top: 30px;
+  border: none;
+}
+#get-started .btn:hover {
+ background-color: #bbb;
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
     display: block;
