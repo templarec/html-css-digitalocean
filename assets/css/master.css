@@ -161,7 +161,6 @@
 .deploy-list {
   list-style: none;
   text-align: left;
-
 }
 .deploy-list li {
   border-left: 2px solid #ccc;
@@ -191,6 +190,73 @@
   color: #031C4E;
   font-weight: bold;
 }
+#developers {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #F3F5F9;
+  color: #5C6A88;
+  padding-bottom: 40px;
+}
+#developers h2 {
+  color: #031C4E;
+  padding-bottom: 20px;
+}
+#developers p {
+  padding: 20px 0;
+}
+#developers img {
+  width: 60vw;
+  padding: 40px 0;
+}
+#developers .container .row div:nth-child(2) p{
+  color: #031C4E;
+}
+.fa-angle-left, .fa-angle-right {
+  display: none;
+  font-size: 3em;
+}
+.fa-angle-left {
+  color: #6F7B97;
+}
+.fa-angle-right {
+  color: #031C4E;
+}
+.active, .inactive {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+.active {
+  background-color: #006AFF;
+  border: 1px solid #006AFF;
+}
+.inactive {
+  background-color: transparent;
+  border: 1px solid #006AFF;
+}
+#features {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+#features h2 {
+  text-align: center;
+  color: #031C4E;
+  padding-bottom: 40px;
+}
+#features img {
+  width: 50px;
+}
+#features .card p {
+  color: #5C6A88;
+}
+#features .card a {
+  color: #006AFF;
+}
+#features .card a:hover {
+  color: #1633FF;
+  text-decoration: none;
+}
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
@@ -219,6 +285,9 @@
   #trust-banner img {
     width: 6em;
     margin: 0;
+  }
+  .fa-angle-left, .fa-angle-right {
+    display: inline-block;
   }
 }
 @media all and (min-width: 992px) {
