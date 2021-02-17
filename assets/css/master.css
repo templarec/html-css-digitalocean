@@ -348,6 +348,43 @@
 #get-started .btn:hover {
  background-color: #bbb;
 }
+footer {
+  background-color: #031C4E;
+  color:#7A859D;
+  font-size: 0.8em;
+  padding: 40px 0;
+}
+.footer-social {
+  padding-bottom: 20px;
+}
+.footer-social img {
+  padding-bottom: 15px;
+}
+.proudly {
+  color: #465679;
+}
+.social-icons li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.social-icons li a i{
+  font-size: 1.5em;
+}
+footer ul li {
+  list-style: none;
+}
+.li-first-item {
+  color: #fff;
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+footer ul li a {
+  color: #7A859D;
+}
+footer ul li a:hover {
+  color: #1633FF;
+  text-decoration: none;
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
     display: block;
