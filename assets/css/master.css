@@ -1,3 +1,4 @@
+/* Global properties */
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +6,13 @@
   font-size: 16px;
   font-family: 'Inter', sans-serif;
 }
+/* start helper  */
 .helper {
   position: absolute;
   bottom: 20px;
   right: 20px;
   position: fixed;
   z-index: 2;
-
 }
 .bubble {
   color: #031C4E;
@@ -25,7 +26,6 @@
   float: right;
   margin-right: 70px;
   filter: drop-shadow(3px 3px 3px #333);
-
 }
 .squarettino {
   display: inline-block;
@@ -49,6 +49,8 @@
 .shark img {
   width: 60px;
 }
+/* end helper */
+/* start navbar */
 .navbar-default {
   padding: 10px 0;
   font-weight: 500;
@@ -90,6 +92,8 @@
   color: #fff;
   background-color: #006AFF;
 }
+/* end navbar */
+/* start jumbo */
 #jumbo {
   background-image: url('../img/bg-sea.svg');
   background-repeat: no-repeat;
@@ -182,13 +186,15 @@
 #trust-banner img {
   margin: 20px 0;
   height: 6em;
-  }
- #trust-banner h4, #trust-banner p {
+}
+#trust-banner h4, #trust-banner p {
    padding: 20px 0;
- }
- #trust-banner a {
+}
+#trust-banner a {
    color: #006AFF;
- }
+}
+ /* end jumbo */
+ /* deploy section */
 #deploy {
   text-align: center;
   margin-top: 40px;
@@ -209,7 +215,6 @@
 .deploy-list li {
   border-left: 2px solid #ccc;
   padding: 6px 5px;
-
 }
 .deploy-list li a, .deploy-list li a:visited {
   color: #5C6A88;
@@ -234,6 +239,7 @@
   color: #031C4E;
   font-weight: bold;
 }
+/* developers sections */
 #developers {
   text-align: center;
   margin-top: 40px;
@@ -279,6 +285,7 @@
   background-color: transparent;
   border: 1px solid #006AFF;
 }
+/* features section */
 #features {
   margin-top: 40px;
   padding-bottom: 40px;
@@ -301,6 +308,7 @@
   color: #1633FF;
   text-decoration: none;
 }
+/* region section */
 #regions {
   background: rgb(0,30,154);
   background: linear-gradient(180deg, rgba(0,30,154,1) 0%, rgba(0,66,191,1) 100%);
@@ -338,6 +346,7 @@
 .no-border {
   border: none;
 }
+/* about us section */
 #about-us {
   background-color: #F3F5F9;
   text-align: center;
@@ -372,6 +381,7 @@
 #about-us .pallini {
   padding: 20px 0;
 }
+/* get started section */
 #get-started {
   background: rgb(0,30,154);
   background: linear-gradient(180deg, rgba(0,30,154,1) 0%, rgba(0,66,191,1) 100%);
@@ -392,6 +402,7 @@
 #get-started .btn:hover {
  background-color: #bbb;
 }
+/* footer section */
 footer {
   background-color: #031C4E;
   color: #7A859D;
@@ -429,6 +440,8 @@ footer ul li a:hover {
   color: #1633FF;
   text-decoration: none;
 }
+/* media queries */
+  /* media query for haburger menu in tablet version */
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .navbar-toggle {
     display: block;
@@ -443,6 +456,7 @@ footer ul li a:hover {
     overflow-y: auto;
   }
 }
+/* other queries default devices */
 @media all and (min-width: 768px) {
   .create-account {
     margin-top: 40px;
@@ -467,6 +481,5 @@ footer ul li a:hover {
   }
   #trust-banner img {
     width: 10em;
-
   }
 }

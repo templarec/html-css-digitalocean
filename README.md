@@ -1,9 +1,3 @@
 html-css-digitalocean
 
-
-to do:
-
-shark helper
-check font sizes
-validator
-add comments
+tempo impiegato nel progetto: 10h 36m
