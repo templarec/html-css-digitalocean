@@ -6,3 +6,4 @@ to do:
 shark helper
 check font sizes
 validator
+add comments
