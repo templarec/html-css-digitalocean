@@ -5,6 +5,50 @@
   font-size: 16px;
   font-family: 'Inter', sans-serif;
 }
+.helper {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  z-index: 2;
+
+}
+.bubble {
+  color: #031C4E;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  background-color: #fff;
+  display: inline-block;
+  height: 54px;
+  width: 60%;
+  float: right;
+  margin-right: 70px;
+  filter: drop-shadow(3px 3px 3px #333);
+
+}
+.squarettino {
+  display: inline-block;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+}
+.helper .shark {
+  background-color: #006AFF;
+  border-radius: 5px;
+  padding: 5px 0;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.shark img {
+  width: 60px;
+}
 .navbar-default {
   padding: 10px 0;
   font-weight: 500;
